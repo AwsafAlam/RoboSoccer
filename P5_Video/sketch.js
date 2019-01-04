@@ -18,3 +18,29 @@ function draw() {
 //     canvas.height = video.clientHeight;
 //     context.drawImage(video,0,0);
 // }
+
+function t1inc(){ 
+
+    var e = document.getElementById("t1_score");
+    var val = e.innerHTML;
+    val++;
+    e.innerHTML = val;
+}
+function t1dec(){ 
+    var e = document.getElementById("t1_score");
+    var val = e.innerHTML;
+    val--;
+    e.innerHTML = val;
+}
+function t2inc(){ 
+    var e = document.getElementById("t2_score");
+    var val = e.innerHTML;
+    val++;
+    e.innerHTML = val;
+}
+function t2dec(){ 
+    var e = document.getElementById("t2_score");
+    var val = e.innerHTML;
+    val--;
+    e.innerHTML = val;
+}

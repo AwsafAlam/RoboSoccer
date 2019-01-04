@@ -26,17 +26,20 @@
                     </div>
                     <div class="timeline">
                         <div class="score">
-                            <h3 class="winner">2</h3>
-                            <h3>0</h3>
+                            <h3 class="winner" id="t1_score" >0</h3>
+                            <h3 id="t2_score">0</h3>
                         </div>
                     </div>
                 </div>
                
         </div>
         <button id="start">start</button>
-    <button id="stop">stop</button>
+    <button id="stop">pause</button>
     <button id="clear">clear</button>
-    <button onclick="snap();">snap</button>
+    <button onclick="t1inc();">Team 1 Score inc</button>
+    <button onclick="t1dec();">Team 1 Score dec</button>
+    <button onclick="t2inc();">Team 2 Score inc</button>
+    <button onclick="t2dec();">Team 2 Score dec</button>
 
     <script src="p5.min.js"></script>
     <script src="addons/p5.dom.min.js"></script>
