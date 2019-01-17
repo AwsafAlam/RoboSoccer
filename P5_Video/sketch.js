@@ -30,6 +30,7 @@ function t1dec(){
     var e = document.getElementById("t1_score");
     var val = e.innerHTML;
     val--;
+    val < 0 ? val =0 : val=val;
     e.innerHTML = val;
 }
 function t2inc(){ 
@@ -42,5 +43,6 @@ function t2dec(){
     var e = document.getElementById("t2_score");
     var val = e.innerHTML;
     val--;
+    val < 0 ? val =0 : val=val;
     e.innerHTML = val;
 }
